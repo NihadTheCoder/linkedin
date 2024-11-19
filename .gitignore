@@ -7,33 +7,37 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
 dist
 dist-ssr
-*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Local environment files
+*.local
 .DS_Store
+
+# IDE specific files
+.vscode/*
+.idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.iws
+*.iml
+*.ipr
 
-
-
-# Backend .gitignore <START>
+# Documentation
 HELP.md
+
+# Gradle files
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### STS ###
+# Eclipse files
 .apt_generated
 .classpath
 .factorypath
@@ -41,25 +45,22 @@ build/
 .settings
 .springBeans
 .sts4-cache
+
+# Binary directories
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Output directories
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### NetBeans ###
+# NetBeans files
 nbproject/private/
 nbbuild/
 dist/
 nbdist/
 .nb-gradle/
 
-### VS Code ###
-.vscode
+.env
